@@ -23,7 +23,7 @@ $("#container2").show();
     function countdown(){
         timer--;
         $("#time").html("Time Remaining: " + timer + " Seconds");
-        $("#Done").on("click" , function() {
+        $("#submit").on("click" , function() {
         timer = 0;
         return;
                                        
