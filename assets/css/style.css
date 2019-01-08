@@ -1,0 +1,70 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(https://vignette.wikia.nocookie.net/clubpenguin/images/b/bd/Music_Jam_Guitars_Background.png/revision/latest?cb=20150305225857);
+}
+
+#container1 {
+    font-family: 'Scope One', serif;
+    font-size: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(54, 89, 105);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 400px;
+    width: 70%;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+}
+
+button {
+    font-family: 'Gruppo', cursive, Georgia, 'Times New Roman', Times, serif;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#time {
+    font-family: 'Sedgwick Ave', cursive, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(155, 144, 161);
+    margin: auto;
+}
+
+#container2 {
+    font-family: 'Scope One', serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(83, 74, 105);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: auto;
+    width: 70%;
+    padding: 10px;
+    margin-top: 5%;
+    bottom: 50px;
+}
+
+#container3 {
+    font-family: 'Scope One', serif;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(54, 89, 105);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 500px;
+    width: 70%;
+    padding: 10px;
+    margin-top: 5%;
+}
