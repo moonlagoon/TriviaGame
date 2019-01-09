@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-image: url(https://vignette.wikia.nocookie.net/clubpenguin/images/b/bd/Music_Jam_Guitars_Background.png/revision/latest?cb=20150305225857); width: 100%; height: 100%;
+    background-image: url(https://vignette.wikia.nocookie.net/clubpenguin/images/b/bd/Music_Jam_Guitars_Background.png/revision/latest?cb=20150305225857); width: 100%; height: 100%; background-size: cover;
 }
 
 #container1 {
