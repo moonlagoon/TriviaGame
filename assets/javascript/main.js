@@ -9,13 +9,12 @@ $(document).ready(function() {
 
 $("#container2").hide();
 $("#container3").hide();
-//
+
 $("#start").on("click", function() {
-//
+
 $("#container1").hide(); 
 $("#container2").show();
         
-    //Timer
         startCountdown();
         return;
     });
@@ -28,9 +27,7 @@ $("#container2").show();
         return;
                                        
         });
-    
-    //
-                      
+                   
         if(timer == -1){
             timeUp();
             $("#container2").hide();
@@ -40,11 +37,8 @@ $("#container2").show();
     function startCountdown () {
         setInterval(countdown, 1000);
     }
-
-//timesUp
     function timeUp(){
-        
-//questions
+//-----------------------questions-------------------------------
         var q1 = $('input:radio[name="q1"]:checked').val();
 		var q2 = $('input:radio[name="q2"]:checked').val();
 		var q3 = $('input:radio[name="q3"]:checked').val();
@@ -52,7 +46,6 @@ $("#container2").show();
 		var q5 = $('input:radio[name="q5"]:checked').val();
 		var q6 = $('input:radio[name="q6"]:checked').val();
 		
-    
         if(q1 == " C "){
             
             correctAnswer++;
@@ -64,8 +57,6 @@ $("#container2").show();
         else {
             wrongAnswer++;
         }
-        console.log(wrongAnswer);
-        console.log(correctAnswer);
         //---------------------------------
         if(q2 == " A "){
             
@@ -78,9 +69,6 @@ $("#container2").show();
         else{
             wrongAnswer++;
         }
-        
-        console.log(wrongAnswer);
-        console.log(correctAnswer);
         //---------------------------------
         if(q3 == " E minor "){
             
@@ -93,9 +81,6 @@ $("#container2").show();
         else{
             wrongAnswer++;
         }
-        
-        console.log(wrongAnswer);
-        console.log(correctAnswer);
         //-----------------------------------
         if(q4 == " A minor "){
             
@@ -106,9 +91,6 @@ $("#container2").show();
         }else{
             wrongAnswer++;
         }
-        
-        console.log(wrongAnswer);
-        console.log(correctAnswer);
         //--------------------------------------
         if(q5 == " D "){
             
@@ -119,9 +101,6 @@ $("#container2").show();
         }else{
             wrongAnswer++;
         }
-        
-        console.log(wrongAnswer);
-        console.log(correctAnswer);
         //-----------------------------------------
         if(q6 == " G "){
             
@@ -132,13 +111,7 @@ $("#container2").show();
         }else{
             wrongAnswer++;
         }
-        
-        console.log(wrongAnswer);
-        console.log(correctAnswer);
         //-------------------------------
-       
-        
-//results
         $("#correctAnswer").html("Correct: " + correctAnswer);
         $("#WrongAnswer").html("Wrong: " + wrongAnswer);
         $("#notAnswered").html("Not Answered : " + notAnswered);
@@ -151,7 +124,6 @@ $("#container2").show();
         location.reload();
            
       });
-   
-   
+    
 });
 
