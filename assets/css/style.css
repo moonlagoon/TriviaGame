@@ -23,7 +23,7 @@ body {
     width: 260px;
     height: 100px;
     font-size: 30px;
-    background-color: rgb(68, 56, 58);
+    background-color: rgb(56, 56, 56);
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
     margin-top: 20px;
@@ -70,7 +70,7 @@ button {
 
 #container3 {
     font-family: 'Scope One', serif;
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 15%;
     margin-right: 15%;
     background-color: rgb(54, 89, 105);
@@ -80,4 +80,8 @@ button {
     width: 70%;
     padding: 10px;
     margin-top: 5%;
+}
+
+#container3 h2 {
+    font-size: 50px;
 }
